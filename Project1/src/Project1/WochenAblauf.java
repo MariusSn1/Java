@@ -18,7 +18,7 @@ package Project1;
 
 public class WochenAblauf {
 	public static void main(String[] args) {
-		String tag = "Dienstaga";
+		String tag = "Freitag";
 		switch (tag) {
 		case "Montag": System.out.println("Einkaufen");
 			break;
