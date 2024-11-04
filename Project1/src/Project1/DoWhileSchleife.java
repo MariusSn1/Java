@@ -33,7 +33,7 @@ public class DoWhileSchleife {
 			System.out.print(j + " ");
 			j = j+i;
 			i = j-i;
-		} while (j<100);
+		} while (j<1000);
 	}
 
 }
