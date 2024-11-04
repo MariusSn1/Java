@@ -5,17 +5,18 @@ package Project1;
 public class GrößteZahl {
 
 	public static void main(String[] args) {
-		int[] zahl = {199, 5, 3};
+		
+		int[] zahl = {74, -378, 21};
 		int größteZahl = Integer.MIN_VALUE;
-		for (int i = 0; i < zahl.length; i++)
-		{
-			if (zahl[i] > größteZahl)
-			{
+		
+		for (int i = 0; i < zahl.length; i++) {
+			if (zahl[i] > größteZahl) {
 				größteZahl = zahl[i];
 			}
 		}
+		
 		System.out.println("Die größte Zahl = " + größteZahl);
-
+		
 	}
 
 }
