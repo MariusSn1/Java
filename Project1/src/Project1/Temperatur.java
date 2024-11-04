@@ -24,36 +24,25 @@ public class Temperatur {
 		switch (monat) {
 			case 3, 4, 5:
 				jahresZeit = "Frühling";
+				System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 20) ? "warm" : "kalt"));
 				break;
 			case 6, 7, 8:
 				jahresZeit = "Sommer";
+				System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 25) ? "warm" : "kalt"));	
 				break;
 			case 9, 10, 11:
 				jahresZeit = "Herbst";
+				System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 15) ? "warm" : "kalt"));
 				break;
 			case 12, 1, 2:
 				jahresZeit = "Winter";
+				System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 5) ? "warm" : "kalt"));
 				break;
 			default:
 				jahresZeit = "ungültig";
+				System.out.println(monat + " ist kein gültiger Monat");
 				break;
-		}
-		
-		if (jahresZeit == "Frühling") {
-			System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 20) ? "warm" : "kalt"));
-		}
-		else if (jahresZeit == "Sommer") {
-			System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 25) ? "warm" : "kalt"));	
-		}
-		else if (jahresZeit == "Herbst") {
-			System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 15) ? "warm" : "kalt"));
-		}
-		else if (jahresZeit == "Winter") {
-			System.out.println("Der " + monat + ". Monat ist mit " + temperatur + "°C für " + jahresZeit + " relativ " + ((temperatur >= 5) ? "warm" : "kalt"));
-		}
-		else {
-			System.out.println(monat + " ist kein gültiger Monat");
-		}
+		}		
 		
 	}
 }
