@@ -18,13 +18,13 @@ public class WhileSchleife {
 		i = -10;
 		while (i <= 10) {
 			System.out.print(i + " ");
-			i++;
+			i += 2;
 		}
 		System.out.print("\n");
 		i = 1;
 		while (i <= 512) {
 			System.out.print(i + " ");
-			i = i*2;
+			i *= 2;
 		}
 	}
 
