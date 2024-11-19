@@ -5,12 +5,11 @@ public class Factorial {
 	public static void main(String[] args) {
 		//
 		int input = 11;		
-		int output = factorial(input);
-		System.out.println(output);
+		System.out.println(factorial(input));
 	}
 	
-	public static int factorial (int num) {
-		int result = 1;
+	public static long factorial (int num) {
+		long result = 1;
 		for (int i = 1; i <= num; i++) {
 			result = result * i;
 		}
