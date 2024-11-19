@@ -3,7 +3,7 @@ package Project1;
 public class Factorial {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//
 		int input = 11;		
 		int output = factorial(input);
 		System.out.println(output);

@@ -3,6 +3,7 @@ package Project1;
 public class NestedLoop {
 	
 	public static void main(String[] args) {
+		//
 		int rows = 4;
 		int columns = 1;
 		int num = 1;
