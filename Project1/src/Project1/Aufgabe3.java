@@ -5,7 +5,7 @@ public class Aufgabe3 {
 	public static void main(String[] args) 
 	{
 		double a = 10.2;
-		double b = 2.5;
+		double b = 2.556;
 		if (a == b){
 			System.out.print(a*b);
 		}
